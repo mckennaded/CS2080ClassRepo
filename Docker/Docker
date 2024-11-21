@@ -1,0 +1,6 @@
+FROM ubuntu
+RUN mkdir /bin
+COPY assignment.sh /bin
+CMD /bin/assignment.txt
+
+RUN apt install nginx
